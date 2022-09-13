@@ -1,4 +1,10 @@
 
     $("h2").css('color', 'red');
-    $(".heading").css('color', 'blue');
-    $("#para").css('color', 'yellow');
+    $(".heading").css('color', 'purple');
+    $("#para").css('color', 'black');
+
+    $(document).ready(function () { 
+        $('button').click(function(){
+                $('#lorem').css('color', 'green')
+        })
+     })
