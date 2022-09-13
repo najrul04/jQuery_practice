@@ -5,6 +5,6 @@
 
     $(document).ready(function () { 
         $('button').click(function(){
-                $('#lorem').css('color', 'green')
+                $('#lorem').css('color', 'pink')
         })
      })
