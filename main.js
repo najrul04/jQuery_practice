@@ -8,3 +8,4 @@
                 $('#lorem').css('color', 'gray')
         })
      })
+ 
