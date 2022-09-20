@@ -1,11 +1,13 @@
-
-    $("h2").css('color', 'red');
-    $(".heading").css('color', 'purple');
-    $("#para").css('color', 'black');
-
-    $(document).ready(function () { 
-        $('button').click(function(){
-                $('#lorem').css('color', 'gray')
-        })
-     })
- 
+$(document).ready(function () { 
+    // Slick Slider
+    
+$('.slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear'
+  });
+          
+          
+ })
